@@ -108,6 +108,8 @@ const getState = ({ getStore, getActions, setStore }) => {
                 }
             },
 
+            // ACTION DASHBOARD DE USUARIO
+
             
             getDashboardData: async () => {
                 const token = localStorage.getItem("token");
